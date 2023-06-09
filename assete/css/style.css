@@ -1,0 +1,106 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+  background-color: rgb(30, 0, 77);
+}
+
+button
+{
+  border: none;
+  line-height: 0;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 3px 5px rgba(168, 168, 168, .38);
+}
+
+.container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tasks_table
+{
+  width: 60%;
+  margin-top: 130px;
+  background-color: rgb(239, 239, 239);
+}
+
+.tasks_table .hero
+{
+  width: 100%;
+  padding: 0 8px;
+  text-align: center;
+  background-color: rgb(92, 52, 155);
+}
+
+.hero h1
+{
+  color: #fff;
+}
+
+.circular
+{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-top: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.hero h1
+{
+  display: inline;
+}
+
+#tasks
+{
+  padding: 20px;
+}
+
+#tasks .task .tasks_info
+{
+  width: 70%;
+}
+
+.task
+{
+  padding: 4px;
+  display: flex;
+  background-color: #fff;
+  transition: box-shadow .4s;
+  border-bottom: 1px solid #000;
+}
+
+.done { background-color: rgb(158, 253, 160); }
+
+.task:hover{
+  box-shadow: 0 3px 20px rgba(97, 97, 97, .843);
+}
+
+.task .tasks_action
+{
+  width: 29%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
